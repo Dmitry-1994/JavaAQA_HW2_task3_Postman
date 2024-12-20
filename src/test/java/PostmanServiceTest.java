@@ -17,8 +17,7 @@ public class PostmanServiceTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Меня зовут Дмитрий"))
-        ;
+                .body("data", equalTo("Меня зовут Александр"));
     }
 
 
